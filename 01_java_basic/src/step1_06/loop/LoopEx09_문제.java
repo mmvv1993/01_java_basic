@@ -43,10 +43,48 @@ public class LoopEx09_문제 {
 			System.out.print("메뉴 선택 : ");
 			int selectMenu = scan.nextInt();
 			
-			if (selectMenu == 1) {}
-			else if (selectMenu == 2) {}
-			else if (selectMenu == 3) {}
-			else if (selectMenu == 4) {}
+			if (selectMenu == 1) {
+				System.out.println("입금할 금액을 입력!!");
+				int Money = scan.nextInt();
+				
+				if(myMoney >= Money) {
+					System.out.println("입금이가 완료되었습닌다");
+					myMoney = myMoney + Money;
+				}
+			}
+			else if (selectMenu == 2) {
+				System.out.println("출금할 금액을 입력하세요!##!#!#!");
+				int Money1 = scan.nextInt();
+				
+				if(myMoney < Money1) {
+					System.out.println("잔액이 부족합니다.");
+					
+				}else {
+					System.out.println("출금이 정상적으로 완료되었습니다.");
+					myMoney	= myMoney - Money1;
+				} 
+			}
+			else if (selectMenu == 3) {
+				System.out.println("이체할 계좌번호를 입력하세요");
+				int Acc = scan.nextInt();
+				
+				if(Acc == yourAcc) {
+					System.out.println("이체할 금액을 입력하세요");
+					int Money2 = scan.nextInt();
+					if(myMoney < Money2) {
+						System.out.println("잔액이부족합니다.");
+					}else {
+						myMoney = myMoney - Money2;
+						yourMoney = yourMoney + Money2;
+						
+					}
+				}
+				
+			}
+			else if (selectMenu == 4) {
+				System.out.println("myMoney = " + myMoney + "원");
+				System.out.println("yourMoney = " + yourMoney + "원");
+			}
 			else if (selectMenu == 0) {
 				isRun = false;
 				System.out.println("프로그램 종료");
