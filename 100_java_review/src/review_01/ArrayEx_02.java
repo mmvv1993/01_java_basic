@@ -18,6 +18,8 @@ public class ArrayEx_02 {
 	
 			}
 		// 2.배열 사용법(2) : 축약형
+			
+			
 		int[] temp = {10,20,30};
 			for(int i=0; i<3; i++) {
 
