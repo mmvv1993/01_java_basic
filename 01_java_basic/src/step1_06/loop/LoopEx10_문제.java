@@ -59,8 +59,9 @@ public class LoopEx10_문제 {
 			
 			System.out.print("메뉴 선택 : ");
 			int sel = scan.nextInt();
-			
-			if (sel == 1) {
+			// 깃허브
+			if (sel == 1) {  
+				
 				if(identifier == -1) {
 					System.out.print("계좌번호 입력 : ");
 					int myAcc = scan.nextInt();
@@ -108,7 +109,20 @@ public class LoopEx10_문제 {
 					System.out.println("로그인 후 이용가능합니다.");
 				}
 			}
-			else if (sel == 4) {}
+			else if (sel == 4) {
+				if(identifier == 1) {
+					System.out.println("출금할 금액 입력 : ");
+					int money1 = scan.nextInt();
+					
+					if(identifier == 1) {
+						
+						
+					}
+				}else if (identifier == 2) {
+					
+				}
+				
+			}
 			else if (sel == 5) {}
 			else if (sel == 6) {}
 			else if (sel == 0) {

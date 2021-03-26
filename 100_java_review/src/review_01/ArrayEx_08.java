@@ -64,6 +64,7 @@ public class ArrayEx_08 {
 			}
 			
 			
+			
 			else if(sel == 2) {
 				isrun = false;
 			}
