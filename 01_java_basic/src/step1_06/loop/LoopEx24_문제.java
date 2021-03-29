@@ -32,7 +32,7 @@ public class LoopEx24_문제 {
 		
 		for(int i=0; i<5; i++) {
 			
-			
+			System.out.print(i);
 			
 			
 		}
