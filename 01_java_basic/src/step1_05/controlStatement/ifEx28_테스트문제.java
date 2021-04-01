@@ -13,7 +13,7 @@ package step1_05.controlStatement;
 	meFinal에  meLeft 또는 meRight 저장   (직접)
 	comFinal에 comLeft 또는 comRight 저장 (랜덤)
 	
-	3) 최종판정
+	3) 최종판정 
 */
 public class ifEx28_테스트문제 {
 
