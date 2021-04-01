@@ -20,7 +20,7 @@ import java.util.Scanner;
  * 10월 : 31일
  * 11월	: 30일
  * 12월 : 31일
- * 
+ *  
  * */
 
 public class IfEx27_문제 {

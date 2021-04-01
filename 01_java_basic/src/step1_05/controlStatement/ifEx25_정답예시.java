@@ -21,7 +21,7 @@ import java.util.Scanner;
  *  
  *  1,2,3외의 숫자가 입력되면 아래와 같이 화면에 출력 후 종료
  *  1 ~ 3 번중에서 선택하시오
- *  
+ *   
  * */
 
 public class ifEx25_정답예시 {

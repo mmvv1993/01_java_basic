@@ -26,7 +26,7 @@ package step1_05.controlStatement;
  *  - 해당 case의 아래 case까지 모두 수행한다.
  *    그것을 원치 않을 경우 의도적으로 break 명령어를 작성한다.
  *  - default는 위의 케이스들 중 해당되는 곳이 없을때 분기되는 곳이다.
- *  
+ *   
  * */
 public class IfEx24 {
 

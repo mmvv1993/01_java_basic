@@ -51,7 +51,7 @@ public class ifEx26_문제 {
 			System.out.println("분식세트");
 			break;
 		case 0 : 
-			System.out.println("아무것도 사지 못합니다.");
+			System.out.println("아무것도 사지 못합니다."); 
 			break;
 		default : 
 			System.out.println("족발세트");
